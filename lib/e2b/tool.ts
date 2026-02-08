@@ -1,5 +1,6 @@
 import { anthropic } from "@ai-sdk/anthropic";
 import { getDesktop } from "./utils";
+import { getErrorMessage } from "@/lib/utils";
 
 const wait = async (seconds: number) => {
   await new Promise((resolve) => setTimeout(resolve, seconds * 1000));
@@ -146,11 +147,7 @@ export const bashTool = (sandboxId?: string) =>
         );
       } catch (error) {
         console.error("Bash command failed:", error);
-        if (error instanceof Error) {
-          return `Error executing command: ${error.message}`;
-        } else {
-          return `Error executing command: ${String(error)}`;
-        }
+        return `Error executing command: ${getErrorMessage(error)}`;
       }
     },
   });
