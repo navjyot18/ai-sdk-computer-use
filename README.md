@@ -14,6 +14,8 @@
 </p>
 <br/>
 
+## Walkthrough: https://drive.google.com/file/d/1lWMyZ9vr3momqs01141NheJb2MtbS5lL/view
+
 ## Features
 
 - Streaming text responses powered by the [AI SDK by Vercel](https://sdk.vercel.ai/docs), allowing multiple AI providers to be used interchangeably with just a few lines of code.
@@ -82,3 +84,5 @@ This repository is maintained by the [Vercel](https://vercel.com) team and commu
 
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance functionality or fix bugs.
 # ai-sdk
+
+
