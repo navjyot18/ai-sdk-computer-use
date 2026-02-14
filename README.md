@@ -15,6 +15,7 @@
 <br/>
 
 ## Walkthrough: https://drive.google.com/file/d/1lWMyZ9vr3momqs01141NheJb2MtbS5lL/view
+## Deployed url: https://ai-sdk-computer-use-nav.vercel.app/
 
 ## Features
 
